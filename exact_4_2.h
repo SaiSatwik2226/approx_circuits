@@ -1,13 +1,15 @@
-#ifndef EXACT_4_2_H
-#define EXACT_4_2_H
+#ifndef AHMA_H
+#define AHMA_H
+#include<bits/stdc++.h>
 
-struct exact_4_2
+using namespace std;
+
+struct ahmaStruct
 {
-    int tout;
-    int carry;
-    int sum;
+    bool sum;
+    bool carry;
 };
 
-exact_4_2 exact_4_2Calc(int x4,int x3,int x2,int x1,int tin);
+extern ahmaStruct ahmaCalc(bool x4,bool x3,bool x2,bool x1);
 
 #endif 
