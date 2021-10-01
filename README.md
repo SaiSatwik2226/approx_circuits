@@ -3,3 +3,17 @@
 Using C-Code to create Conventional Approximate circuits.
 Though MATLAB is powerful but for large vector test cases it becomes very slow.
 So using C++ we may have an edge over the timing issue.
+
+## This repo will be partcipating in the [Hacktoberfest](https://hacktoberfest.digitalocean.com/) 2021.
+
+![](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg)
+
+
+> **Rules for the Contribution.**
+1. Issues will be assigned on **First Come First Service Basis**.
+2. You can create a new `issue`.
+3. Maintainer will add `hactoberfest` lable, if the issue created by you is relevant.
+4. Don't `Spam` the `PR` otherwise `spam` label can be added to your `PR`.
+5. After creating a `PR` link the issue also.
+6. 5 Questions of Codeforces||Codechef will be counted as 1 `PR`.
+7. One Contest of Codeforces or Codechef will be counted as 1 `PR`.
