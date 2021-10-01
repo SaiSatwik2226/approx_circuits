@@ -1,13 +1,17 @@
 #ifndef FULLADDER_H
 #define FULLADDER_H
+#include<iostream>
+#include<bits/stdc++.h>
 
-struct fullAdder
+using namespace std;
+
+struct fullAdderStruct
 {
-    int sum;
-    int carry;
+    bool sum;
+    bool carry;
 };
 
 
-fullAdder fullAdderCalc(int x3,int x2,int x1);
+extern fullAdderStruct fullAdderCalc(bool x3,bool x2,bool x1);
 
 #endif 
