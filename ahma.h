@@ -1,12 +1,15 @@
 #ifndef AHMA_H
 #define AHMA_H
+#include<bits/stdc++.h>
 
-struct ahma
+using namespace std;
+
+struct ahmaStruct
 {
-    int sum;
-    int carry;
+    bool sum;
+    bool carry;
 };
 
-ahma ahmaCalc(int x4,int x3,int x2,int x1);
+extern ahmaStruct ahmaCalc(bool x4,bool x3,bool x2,bool x1);
 
 #endif 
