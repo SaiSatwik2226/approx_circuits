@@ -1,7 +1,8 @@
 # approx_circuits
 
-Using C-Code to create Conventional Approximate circuits.
+Using C-Code to create Conventional Approximate circuits. \n
 Though MATLAB is powerful but for large vector test cases it becomes very slow.
+A/d to this [article](https://jonathankinlay.com/2018/10/comparison-programming-languages/) MATLAB is 11 times slower than C++
 So using C++ we may have an edge over the timing issue.
 
 ## This repo will be participating in the [Hacktoberfest](https://hacktoberfest.digitalocean.com/) 2021.
