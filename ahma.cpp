@@ -1,19 +1,28 @@
 #include<bits/stdc++.h>
 using namespace std;
-
-struct ahma
+// #include "ahma.h"
+struct ahmaStruct
 {
-    int sum;
-    int carry;
+    bool sum;
+    bool carry;
 };
 
-ahma ahmaCalc(int x4,int x3,int x2,int x1){
-    ahma s;
-    int a = ~(x1|x2);
-    int b = ~(x3|x4);
+ahmaStruct ahmaCalc(bool x4,bool x3,bool x2,bool x1){
+    ahmaStruct s;
+    bool a = !(x1|x2);
+    bool b = !(x3|x4);
     //carry
-    s.carry = ~(a|b);
+    s.carry = !(a|b);
     //sum
-    s.sum = ~(a&b);
+    s.sum = !(a&b);
     return s;
 }
+
+// int main(){
+//     ahmaStruct ai;
+//     ai = ahmaCalc(0,0,0,0);
+//     cout<<ai.carry<<ai.sum<<endl;
+
+//     return 0;
+// }
+
