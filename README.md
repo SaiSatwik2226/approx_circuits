@@ -4,6 +4,8 @@ Using C-Code to create Conventional Approximate circuits.
 Though MATLAB is powerful but for large vector test cases it becomes very slow.
 So using C++ we may have an edge over the timing issue.
 
+According to this [article](https://jonathankinlay.com/2018/10/comparison-programming-languages/) MATLAB is 11 times slower than C++.
+
 ## This repo will be participating in the [Hacktoberfest](https://hacktoberfest.digitalocean.com/) 2021.
 
 ![](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg)
